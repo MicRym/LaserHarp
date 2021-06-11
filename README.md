@@ -1,4 +1,4 @@
-# LaserHarph
+# LaserHarp
 This project was made for event called "Festival of Science and art in Poznan". Arduino code was used to detect that user has played one of the laser strings.
 Code was implemented for Arduino MEGA. 
 
