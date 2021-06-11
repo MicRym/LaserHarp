@@ -3,6 +3,7 @@ This project was made for event called "Festival of Science and art in Poznan". 
 Code was implemented for Arduino MEGA. 
 
 The Laser Harph looked like this:
+
 L1 ------------------- D1
 
 L2 ------------------- D2
