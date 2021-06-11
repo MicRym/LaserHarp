@@ -3,13 +3,11 @@ This project was made for event called "Festival of Science and art in Poznan". 
 Code was implemented for Arduino MEGA. 
 
 The Laser Harph looked like this:
-L1 L2 L3 ... LX
-|   |  |      |
-|   |  |      |
-|   |  |      |
-|   |  |      |
-|   |  |      |
-D1 D2 D3 ...  DX
+L1 ------------------- D1
+L2 ------------------- D2
+L3 ------------------- D3
+...
+LX ------------------- DX
 
 Where L mean Laser and D means Fotodiod (Detector)
 Those Detectors was connected via 3 multiplexers and values of those was next interpretated by software on Arduino.
