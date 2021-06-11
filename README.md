@@ -4,9 +4,13 @@ Code was implemented for Arduino MEGA.
 
 The Laser Harph looked like this:
 L1 ------------------- D1
+
 L2 ------------------- D2
+
 L3 ------------------- D3
+
 ...
+
 LX ------------------- DX
 
 Where L mean Laser and D means Fotodiod (Detector)
