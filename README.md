@@ -1,5 +1,5 @@
 # LaserHarph
-This project was made for event called "Festival of Science and art in Poznan". This code was used to detect that user has played one of the laser strings.
+This project was made for event called "Festival of Science and art in Poznan". Arduino code was used to detect that user has played one of the laser strings.
 Code was implemented for Arduino MEGA. 
 
 The Laser Harph looked like this:
@@ -20,3 +20,5 @@ To make thath happen program starts with calibration. The lights of lasers are t
 With the new avrage level of light for each detector is set, the lasers are turned on again. 
 So when user cross the laser beam there is a diffrance betwean activation level and avrage level. This diffrence is detected as activation.
 When activation ocours software sends an string via Serial with information about which laser string was activated.
+
+Python code was responsible to catch values send by Arduino via Serial, decode it and then play corresponding files.
